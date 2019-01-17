@@ -9,7 +9,7 @@
   function launchPrintShop() {
     const imageToUseValue = imageToUseInput.value;
     printShopIframe.src =
-      `http://staging-print.kite.ly/town-news/?images=${imageToUseValue}` +
+      `https://staging-print.kite.ly/town-news/?images=${imageToUseValue}` +
           `|1000x750#/create`;
     printShopModal.style.display = 'block';
   }
